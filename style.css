@@ -1,0 +1,48 @@
+body{
+	background: url('1.jpg')no-repeat center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+}
+.navbar{
+	height:80px;
+background-color: #6e2142;
+}
+.titulo{
+     color:#200f21;
+     font-family:´Rammetto One´, cursive;
+     font-size:25px;
+}
+.altoTotal{
+	height:100%;
+}
+.pad{
+	padding:4%;
+}
+.imgWorrldOfWarcaft{
+	width:250px;
+	margin:0 auto;
+}
+/*01111001 01110101 01101100 01100101 01101001 01110011 01111001*/
+.vCenter{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.WorldOfWarcaftinfo{
+	border:3px solid black;
+	height: 250px;
+	width: 250px;
+}
+.nameWorrldOfWarcaft{
+	padding:2%;
+    border:2px solid black;
+ 	text-align:center;
+	font-weight:bolder;
+	font-size:25px;
+	color: #000!important;
+	background-color:#6e2142;
+	
+}

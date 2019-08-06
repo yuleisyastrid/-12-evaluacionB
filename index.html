@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"  ng-app="Worrld Of Warcaft">
+<head>
+	<!--bosststrap.css -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<meta charset="utf-8">
+	<title>Worrld Of Warcaft</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body ng-controller="Worrld Of Warcaft">
+
+      <div class="container-fluid  navbar">
+      	<div class="row altoTotal">
+      		<div class="col-md-12  vCenter altoTotal">
+      			<span class="titulo ">Worrld Of Warcaft</span>
+      		</div>	
+      	</div>
+            <!--01111001 01110101 01101100 01100101 01101001 01110011 01111001-->
+      </div>
+      <div class="container-fluid">
+      	<div class="row ">
+      		<div class="col-md-3 pad " ng-repeat="p in Worldv">
+      			<div class="WorrldOfWarcaftinfo">
+      				<div>
+      				 <img class="img-responsive imgWorrldOfWarcaft" src="{{p.data.sprites.front_default}}" alt="Worrld Of Warcaft"></div>
+      				<div class="nameWorrldOfWarcaft">
+      					Worrld Of Warcaft:
+                                    {{ p.data.Worrld Of Warcaft}}
+                              </div>
+      			</div>
+      		</div>	
+      	</div>
+      </div>
+      
+            
+   
+<!--jQuery.js-->
+	 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+     <script src="script.js"></script>
+
+</body>
+</html>
